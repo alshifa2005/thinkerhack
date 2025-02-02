@@ -93,7 +93,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[[Add your demo video link here]](https://www.loom.com/share/732cc7c016714f9b913b81f6c33636c3?sid=170423a6-ac3c-41bb-82f9-ae8fe2440d09)
 *Explain what the video demonstrates*
 
 # Additional Demos
