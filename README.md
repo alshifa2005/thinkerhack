@@ -1,13 +1,13 @@
-# [Project Name] 🎯
+# ECHOMIND 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Trisquad
 
 
 ### Team Members
 - Member 1: Alshifa Sulfikar B - UKF Collage 
-- Member 2: Thasleema S - UKF Collage
+- Member 2: Thaslima S - UKF Collage
 - Member 3:Kalyani - UKF Collage
 
 ### Hosted Project Link
