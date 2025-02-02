@@ -20,7 +20,12 @@
 emotional companion and personal assistant. a mentor well being is often neglected many peoples lack emotional support in tough times existing solutions are either costly or inpersonal
 
 ### The Solution
-introding echomind personalized emotional companion that help user track their emotion and mood provide a journal future moodmapping and comfort space secure and perzonalised experienced
+introding echomind personalized emotional companion th
+
+Edit
+
+Preview
+at help user track their emotion and mood provide a journal future moodmapping and comfort space secure and perzonalised experienced
 
 ## Technical Details
 ### Technologies/Components Used
@@ -47,13 +52,17 @@ journal used to write daily reflexion app provide emotional insights colorcoded 
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+!(Add screenshhttps://media.discordapp.net/attachments/1333347472558264382/1335430346782671080/image.png?ex=67a023ed&is=679ed26d&hm=47414b16e5d311636cae247bdfad5fd6e423beb3df8c5d49589bd31ad3a6792d&=&format=webp&quality=lossless&width=1273&height=593ot 1 here with proper name)
+![image](https://github.com/user-attachments/assets/ddf090c6-4542-4a67-bd0d-afcaf621ae04)
+
+*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/1f03776c-f9e8-4c00-9c80-3dafe57410d8)
+
+
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/1dba3091-ac35-45c7-be8a-27a5f21780f4)
 
-![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 # Diagrams
