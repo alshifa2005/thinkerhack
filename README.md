@@ -6,9 +6,9 @@
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Alshifa Sulfikar B - UKF Collage 
+- Member 2: Thasleema S - UKF Collage
+- Member 3:Kalyani - UKF Collage
 
 ### Hosted Project Link
 [mention your project hosted project link here]
@@ -17,17 +17,17 @@
 [2-3 lines about what your project does]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+emotional companion and personal assistant. a mentor well being is often neglected many peoples lack emotional support in tough times existing solutions are either costly or inpersonal
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+introding echomind personalized emotional companion that help user track their emotion and mood provide a journal future moodmapping and comfort space secure and perzonalised experienced
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- html 
+- css
+- 
 - [Tools used]
 
 For Hardware:
@@ -36,7 +36,7 @@ For Hardware:
 - [List tools required]
 
 ### Implementation
-For Software:
+journal used to write daily reflexion app provide emotional insights colorcoded moodtracking to  visualise emotional patterns personalised book music hobby suggestion for relaxation password protect access with unique code verification
 # Installation
 [commands]
 
@@ -91,9 +91,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- ALSHIFA SULFIKAR: CODING WITH HTML
+- THASLIMA.S: CODING WITH CSS
+- KALYANI.R: CODING WITH CSS
 
 ---
 Made with ❤️ at TinkerHub
