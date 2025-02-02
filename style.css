@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* background-image: url("https://media.istockphoto.com/id/1219330225/vector/hand-drawn.jpg?s=612x612&w=0&k=20&c=0giADiuFvBxpuxSkNfIjK3GJX6SSpjOJ58q_3ZMfOsI="); */
+    /* background-color: #2ecc71; */
+    background-image: url("images/img1.jpg");
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center center; /* Centers the background image */
+    background-repeat: no-repeat; 
+}
+  /* Landing Page */
+  .landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .landing-container h1 {
+    font-size: 3rem;
+    color: #1e1c34;
+  }
+  
+  .landing-container p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .landing-bg, .clouds, .leaves {
+    position: absolute;
+  }
+  
+  .clouds {
+    top: 10%;
+    left: -10%;
+    animation: float 10s infinite linear;
+  }
+  
+  .leaves {
+    bottom: 10%;
+    right: -10%;
+    animation: float 8s infinite linear;
+  }
+  
+  @keyframes float {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100vw); }
+  }
+  
+  /* Login Page */
+  .login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-link, .forgot-password {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .signup-link a, .forgot-password a {
+    color: #6c5ce7;
+    text-decoration: none;
+  }
+  
+  /* Home Page */
+  .home {
+   
+    min-height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .quote {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #6c5ce7;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background: #5a4acf;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .mood-colors {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .mood {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .mood.green { background-color: #2ecc71; }
+  .mood.blue { background-color: #3498db; }
+  .mood.violet { background-color: #9b59b6; }
+  .mood.yellow { background-color: #f1c40f; }
+  .mood.orange { background-color: #e67e22; }
+  .mood.red { background-color: #e74c3c; }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  .textarea {
+    width: 100%; /* Makes the textarea take up the full width of its container */
+    height: 150px; /* Adjust the height of the textarea */
+    padding: 10px; /* Adds some padding inside the textarea */
+    border: 2px solid #ccc; /* Adds a light border color */
+    border-radius: 5px; /* Rounds the corners of the textarea */
+    font-size: 16px; /* Sets the font size */
+    font-family: Arial, sans-serif; /* Changes the font */
+    resize: vertical; /* Allows the user to resize the height of the textarea */
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width/height */
+    transition: border-color 0.3s ease; /* Adds a smooth transition when the border color changes */
+}
+
+textarea:focus {
+    outline: none; /* Removes the default focus outline */
+    border-color: #4CAF50; /* Changes the border color when the textarea is focused */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Adds a subtle shadow to the textarea on focus */
+}

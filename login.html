@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECHO MIND - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login">
+  <div class="login-container">
+    <h2>Welcome Back</h2>
+    <form id="login-form">
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <div class="input-group">
+        <label for="unique-code">Unique Code:</label>
+        <input type="text" id="unique-code" name="unique-code">
+      </div>
+      <button type="button" id="login-button" class="login-button">Login</button>
+      <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+      <p class="forgot-password"><a href="forgot-password.html">Forgot Password?</a></p>
+    </form>
+  </div>
+
+  <script>
+    // Redirect to home.html when the login button is clicked
+    document.getElementById('login-button').addEventListener('click', function () {
+      window.location.href = 'home.html';
+    });
+  </script>
+</body>
+</html>

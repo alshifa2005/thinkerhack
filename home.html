@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECHO MIND - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <header>
+    <h1>ECHO MIND</h1>
+    <div class="profile">
+      <img src="images/user-icon.svg" alt="User Profile">
+      <span>User Name</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="quote">
+      <p>"This moment is not forever."</p>
+    </section>
+
+    <section class="tabs">
+      <button class="tab-button active" data-tab="journal">Journal</button>
+      <button class="tab-button" data-tab="mood-mapping">Mood Mapping</button>
+    </section>
+
+    <section class="content">
+      <div id="journal" class="tab-content active">
+        <h2>Daily Journal</h2>
+        <textarea class="textarea" placeholder="Write about your day..."></textarea>
+        <button class="save-button">Save Entry</button>
+      </div>
+
+      
+      <div id="mood-mapping" class="tab-content">
+        <h2>Mood Mapping</h2>
+        <div class="mood-colors">
+          <button class="mood green" data-mood="happy">Happy</button>
+          <button class="mood blue" data-mood="calm">Calm</button>
+          <button class="mood violet" data-mood="thoughtful">Thoughtful</button>
+          <button class="mood yellow" data-mood="energetic">Energetic</button>
+          <button class="mood orange" data-mood="anxious">Anxious</button>
+          <button class="mood red" data-mood="angry">Angry</button>
+        </div>
+        <p id="mood-alert"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Need help? <a href="#">Contact Support</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
